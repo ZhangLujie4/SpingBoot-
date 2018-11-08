@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/dinner-test?useSSL=false&characterEncoding=utf-8
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: zhanglujie
+  jpa:
+    show-sql: true
+  application:
+    name: dinner-test
+server:
+  port: 8088
